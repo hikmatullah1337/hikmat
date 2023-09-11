@@ -111,7 +111,6 @@ ul li .num {
 
 /* =============== Hero =============== */
 .hero__content {
-    min-height: 100vh;
     height: 100%;
     display: flex;
     align-items: center;
@@ -208,11 +207,11 @@ ul li .num {
 .about__content .start {
     font-size: 2rem;
     font-weight: bold;
-    
 }
 
 .about__content .number {
     color: var(--accent-color);
+    margin-right: -1.5rem;
 }
 
 .about__content p {
@@ -258,6 +257,7 @@ ul li .num {
 
 .skills__content .number {
     color: var(--accent-color);
+    margin-right: -1.5rem;
 }
 
 .tech__stock {
@@ -327,6 +327,7 @@ ul li .num {
 
 .portfolio__content .number {
     color: var(--accent-color);
+    margin-right: -1rem;
 }
 
 .portfolio__content span {
@@ -431,6 +432,8 @@ ul li .num {
 
 .career__content .number {
     color: var(--accent-color);
+    margin-right: -1.3rem;
+
 }
 
 .career__content span {
@@ -477,6 +480,7 @@ ul li .num {
 
 .contact__content .number {
     color: var(--accent-color);
+    margin-right: -1.3rem;
 }
 
 .contact__content p {
@@ -566,6 +570,55 @@ ul li .num {
     }
     .skills__content .end {
         font-size: 1.3rem;
+        text-align: center;
+        align-self: flex-end;
+        margin-right: .3rem;
+    }
+    .portfolio__content .start {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .portfolio__content p {
+        text-align: center;
+    }
+    .portfolio__content .end {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        text-align: center;
+        align-self: flex-end;
+        margin-right: .3rem;
+    }
+    .career__content .start {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .career__content p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .career__content .end {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        text-align: center;
+        align-self: flex-end;
+        margin-right: .3rem;
+    }
+    .contact__content {
+        padding-bottom: 12rem;
+    }
+    .contact__content .start {
+        font-size: 1.7rem;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .contact__content p {
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    .contact__content .end {
+        font-size: 1.5rem;
         margin-top: 2rem;
         text-align: center;
         align-self: flex-end;
